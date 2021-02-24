@@ -1,4 +1,4 @@
-# Basic Auth example with FastApi (Backend) + VanillaJS (Frontend)
+# Basic Auth example with Python FastApi (Backend) + VanillaJS (Frontend)
 - `pip3 install requirements.txt`
 - `python3 main.py`
 - open `http://0.0.0.0:8888/static` in your browser
