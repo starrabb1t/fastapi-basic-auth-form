@@ -1,0 +1,100 @@
+body {
+    font-family: Arial;
+}
+
+.container {
+    padding-top: 50px;
+}
+
+h3 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    border-color: lightgray;
+    border-width: 1px;
+    border-style: solid;
+}
+
+button {
+    margin: auto;
+    margin-top: 20px;
+    height: 28px;
+    width: 40%;
+    border-radius: 5px;
+    border-style: none;
+}
+
+#login_form {
+    display: none;
+}
+
+#register_form {
+    display: none;
+}
+
+#profile_info {
+    display: none;
+}
+
+#login_button {
+    background: #ff9062
+}
+
+#login_button:hover {
+    background: #fdc7b0
+}
+
+#register_button {
+    background: #61e8a8
+}
+
+#register_button:hover {
+    background: #bcfddc
+}
+
+#logout_button {
+    background: #d7d7d7
+}
+
+#logout_button:hover {
+    background: #eeeeee
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.form {
+    margin: auto;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    min-width: 200px;
+}
+
+.button_bar {
+    display: flex;
+    flex-direction: row;
+}
+
+*:focus {
+    outline: none;
+}
+
+@media (max-width: 800px) {
+    .form {
+        width: 100%;
+    }
+}
